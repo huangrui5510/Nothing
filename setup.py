@@ -1,7 +1,6 @@
 # coding:utf-8
 """
-author: Allen
-email: lingyunzou@aliyun.com
+author: sixi
 datetime: 2019/03/11
 python version: 3.x
 summary: 
@@ -44,8 +43,8 @@ setup(
     author='sixiyizai',
     author_email='lingyunzou@aliyun.com',
 
-    # package_dir={},
-    packages=find_packages(),
+    package_dir={"": "ecd"},
+    packages=find_packages(where="ecd", exclude=["local"]),
     # package_data={
     #     "": ["src/data_files/*"]
     # },
@@ -57,3 +56,7 @@ setup(
     zip_safe=False,
     python_requires='>=3.0',
 )
+if __name__ == '__main__':
+    import sys
+
+    sys.argv = ['setup.py', 'sdist']
