@@ -1,7 +1,6 @@
 # coding:utf-8
 """
 author: Allen
-email: lingyunzou@aliyun.com
 datetime: 2018/12/17
 python version: 3.x
 summary: 解决 jieba 自定义词不能包含特殊符号

@@ -1,7 +1,6 @@
 # coding:utf-8
 """
 author: Allen
-email: lingyunzou@aliyun.com
 datetime: 
 python version: 3.x
 summary: 
@@ -12,7 +11,7 @@ import time
 
 import requests
 
-from ecd.pressure_example.pressure_base import process_concurrent
+from ecd.concurrent_p_t.pressure_base import process_concurrent
 
 
 def req_api(url, *args, **kwargs):

@@ -1,7 +1,6 @@
 # coding:utf-8
 """
 author: Allen
-email: lingyunzou@aliyun.com
 summary: 指定目录发送目录下附件
 datetime: 2018/12/9
 python version: 3.x
@@ -19,7 +18,7 @@ from email.mime.multipart import MIMEBase, MIMEMultipart
 from email.mime.text import MIMEText
 from email.utils import parseaddr, formataddr
 
-from email_conf import Conf
+from ecd.send_email_attachments.email_conf import Conf
 
 
 def format_addr(add_info):

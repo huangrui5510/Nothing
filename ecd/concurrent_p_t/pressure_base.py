@@ -1,7 +1,6 @@
 # coding:utf-8
 """
 author: Allen
-email: lingyunzou@aliyun.com
 datetime: 2019-3-16
 python version: 3.x
 summary: 多线程下开启多进程

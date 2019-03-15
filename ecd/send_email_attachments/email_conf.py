@@ -1,7 +1,6 @@
 #coding:utf-8
 """
 author: Allen
-email: lingyunzou@aliyun.com
 summary: 指定目录发送目录下附件，配置文件
 datetime: 2018/12/9
 """

@@ -1,7 +1,6 @@
 # coding:utf-8
 """
 author: Allen
-email: lingyunzou@aliyun.com
 summary: 文件io操作
 datetime: 2018/12/9
 python version: 3.x
